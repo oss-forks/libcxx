@@ -29,6 +29,7 @@
     #define __terminate_handler  __cxxabiapple::__cxa_terminate_handler
     #define __unexpected_handler __cxxabiapple::__cxa_unexpected_handler
   #endif  // _LIBCPPABI_VERSION
+#elif defined(__TIZEN__)
 #elif defined(LIBCXXRT) || __has_include(<cxxabi.h>)
   #include <cxxabi.h>
   using namespace __cxxabiv1;
@@ -43,7 +44,7 @@
 namespace std
 {
 
-#if !defined(LIBCXXRT) && !defined(_LIBCPPABI_VERSION) && !defined(__GLIBCXX__)
+#if !defined(LIBCXXRT) && !defined(_LIBCPPABI_VERSION) && !defined(__GLIBCXX__) && !defined(__TIZEN__)
 
 // libcxxrt provides implementations of these functions itself.
 unexpected_handler
