@@ -7,10 +7,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "condition_variable"
-#include "thread"
-#include "system_error"
-#include "cassert"
+#include "../include/condition_variable"
+#include "../include/thread"
+#include "../include/system_error"
+#include "../include/cassert"
 
 _LIBCPP_BEGIN_NAMESPACE_STD
 

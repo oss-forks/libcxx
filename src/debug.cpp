@@ -8,12 +8,12 @@
 //===----------------------------------------------------------------------===//
 
 #define _LIBCPP_DEBUG 1
-#include "__config"
-#include "__debug"
-#include "functional"
-#include "algorithm"
-#include "__hash_table"
-#include "mutex"
+#include "../include/__config"
+#include "../include/__debug"
+#include "../include/functional"
+#include "../include/algorithm"
+#include "../include/__hash_table"
+#include "../include/mutex"
 
 _LIBCPP_BEGIN_NAMESPACE_STD
 

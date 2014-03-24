@@ -9,8 +9,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#include "exception"
-#include "new"
+#include "../include/exception"
+#include "../include/new"
 
 #ifndef __has_include
 #define __has_include(inc) 0

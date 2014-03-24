@@ -8,7 +8,7 @@
 //===----------------------------------------------------------------------===//
 
 #define _LIBCPP_BUILDING_SHARED_MUTEX
-#include "shared_mutex"
+#include "../include/shared_mutex"
 
 _LIBCPP_BEGIN_NAMESPACE_STD
 

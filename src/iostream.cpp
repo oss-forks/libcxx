@@ -7,9 +7,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "__std_stream"
-#include "string"
-#include "new"
+#include "../include/__std_stream"
+#include "../include/string"
+#include "../include/new"
 
 _LIBCPP_BEGIN_NAMESPACE_STD
 

@@ -11,7 +11,7 @@
 
 #include <stdlib.h>
 
-#include "new"
+#include "../include/new"
 
 #ifndef __has_include
 #define __has_include(inc) 0

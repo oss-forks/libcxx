@@ -35,7 +35,7 @@ int toupper(int c);
 }  // std
 */
 
-#include <__config>
+#include "__config"
 #include <ctype.h>
 #if defined(_LIBCPP_MSVCRT)
 #include "support/win32/support.h"

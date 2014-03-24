@@ -13,8 +13,8 @@
 #include <stdio.h>
 #endif
 
-#include "random"
-#include "system_error"
+#include "../include/random"
+#include "../include/system_error"
 
 #ifdef __sun__
 #define rename solaris_headers_are_broken

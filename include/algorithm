@@ -14,7 +14,7 @@
 /*
     algorithm synopsis
 
-#include <initializer_list>
+#include "initializer_list"
 
 namespace std
 {
@@ -620,14 +620,14 @@ template <class BidirectionalIterator, class Compare>
 
 */
 
-#include <__config>
-#include <initializer_list>
-#include <type_traits>
-#include <cstring>
-#include <utility>
-#include <memory>
-#include <iterator>
-#include <cstddef>
+#include "__config"
+#include "initializer_list"
+#include "type_traits"
+#include "cstring"
+#include "utility"
+#include "memory"
+#include "iterator"
+#include "cstddef"
 
 #if defined(__IBMCPP__)
 #include "support/ibm/support.h"
@@ -636,7 +636,7 @@ template <class BidirectionalIterator, class Compare>
 #include "support/win32/support.h"
 #endif
 
-#include <__undef_min_max>
+#include "__undef_min_max"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

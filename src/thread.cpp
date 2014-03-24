@@ -7,11 +7,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "thread"
-#include "exception"
-#include "vector"
-#include "future"
-#include "limits"
+#include "../include/thread"
+#include "../include/exception"
+#include "../include/vector"
+#include "../include/future"
+#include "../include/limits"
 #include <sys/types.h>
 #if !defined(_WIN32)
 #if !defined(__sun__) && !defined(__linux__) && !defined(_AIX)

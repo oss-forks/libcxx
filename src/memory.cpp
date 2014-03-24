@@ -8,9 +8,9 @@
 //===----------------------------------------------------------------------===//
 
 #define _LIBCPP_BUILDING_MEMORY
-#include "memory"
-#include "mutex"
-#include "thread"
+#include "../include/memory"
+#include "../include/mutex"
+#include "../include/thread"
 
 _LIBCPP_BEGIN_NAMESPACE_STD
 

@@ -7,10 +7,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "__hash_table"
-#include "algorithm"
-#include "stdexcept"
-#include "type_traits"
+#include "../include/__hash_table"
+#include "../include/algorithm"
+#include "../include/stdexcept"
+#include "../include/type_traits"
 
 #ifdef __clang__
 #pragma clang diagnostic ignored "-Wtautological-constant-out-of-range-compare"

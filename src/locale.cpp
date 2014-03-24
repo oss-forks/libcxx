@@ -15,21 +15,21 @@
 #define _LCONV_C99
 #endif
 
-#include "string"
-#include "locale"
-#include "codecvt"
-#include "vector"
-#include "algorithm"
-#include "typeinfo"
+#include "../include/string"
+#include "../include/locale"
+#include "../include/codecvt"
+#include "../include/vector"
+#include "../include/algorithm"
+#include "../include/typeinfo"
 #ifndef _LIBCPP_NO_EXCEPTIONS
-#  include "type_traits"
+#  include "../include/type_traits"
 #endif
-#include "clocale"
-#include "cstring"
-#include "cwctype"
-#include "__sso_allocator"
+#include "../include/clocale"
+#include "../include/cstring"
+#include "../include/cwctype"
+#include "../include/__sso_allocator"
 #if defined(_LIBCPP_MSVCRT) || defined(__MINGW32__)
-#include <support/win32/locale_win32.h>
+#include "../include/support/win32/locale_win32.h"
 #else // _LIBCPP_MSVCRT
 #include <langinfo.h>
 #endif // !_LIBCPP_MSVCRT

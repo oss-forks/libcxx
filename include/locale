@@ -178,21 +178,21 @@ template <class charT> class messages_byname;
 
 */
 
-#include <__config>
-#include <__locale>
-#include <algorithm>
-#include <memory>
-#include <ios>
-#include <streambuf>
-#include <iterator>
-#include <limits>
+#include "__config"
+#include "__locale"
+#include "algorithm"
+#include "memory"
+#include "ios"
+#include "streambuf"
+#include "iterator"
+#include "limits"
 #ifndef __APPLE__
-#include <cstdarg>
+#include "cstdarg"
 #endif
-#include <cstdlib>
-#include <ctime>
+#include "cstdlib"
+#include "ctime"
 #if defined(_LIBCPP_MSVCRT) || defined(__MINGW32__)
-#include <support/win32/locale_win32.h>
+#include "support/win32/locale_win32.h"
 #else // _LIBCPP_MSVCRT
 #include <nl_types.h>
 #endif  // !_LIBCPP_MSVCRT
@@ -201,7 +201,7 @@ template <class charT> class messages_byname;
 #include <Availability.h>
 #endif
 
-#include <__undef_min_max>
+#include "__undef_min_max"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

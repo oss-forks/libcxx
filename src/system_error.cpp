@@ -8,9 +8,9 @@
 //===----------------------------------------------------------------------===//
 
 #define _LIBCPP_BUILDING_SYSTEM_ERROR
-#include "system_error"
-#include "string"
-#include "cstring"
+#include "../include/system_error"
+#include "../include/string"
+#include "../include/cstring"
 
 _LIBCPP_BEGIN_NAMESPACE_STD
 

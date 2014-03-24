@@ -7,10 +7,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "strstream"
-#include "algorithm"
-#include "climits"
-#include "cstring"
+#include "../include/strstream"
+#include "../include/algorithm"
+#include "../include/climits"
+#include "../include/cstring"
 
 _LIBCPP_BEGIN_NAMESPACE_STD
 

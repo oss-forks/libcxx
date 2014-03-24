@@ -33,7 +33,7 @@ Types:
 
 */
 
-#include <__config>
+#include "__config"
 
 #ifdef __GLIBC__
 #define __need_NULL

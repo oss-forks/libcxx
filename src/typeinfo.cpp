@@ -18,7 +18,7 @@
 #include <cxxabi.h>
 #endif
 
-#include "typeinfo"
+#include "../include/typeinfo"
 
 #if !defined(LIBCXXRT) && !defined(_LIBCPPABI_VERSION)
 

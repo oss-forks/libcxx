@@ -20,7 +20,7 @@
 
 #ifdef __cplusplus
 
-#include <ccomplex>
+#include "ccomplex"
 
 #else  // __cplusplus
 

@@ -9,15 +9,15 @@
 
 #define _LIBCPP_EXTERN_TEMPLATE(...) extern template __VA_ARGS__;
 
-#include "ios"
-#include "streambuf"
-#include "istream"
-#include "string"
-#include "__locale"
-#include "algorithm"
-#include "memory"
-#include "new"
-#include "limits"
+#include "../include/ios"
+#include "../include/streambuf"
+#include "../include/istream"
+#include "../include/string"
+#include "../include/__locale"
+#include "../include/algorithm"
+#include "../include/memory"
+#include "../include/new"
+#include "../include/limits"
 #include <stdlib.h>
 
 _LIBCPP_BEGIN_NAMESPACE_STD

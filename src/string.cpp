@@ -9,14 +9,14 @@
 
 #define _LIBCPP_EXTERN_TEMPLATE(...) extern template __VA_ARGS__;
 
-#include "string"
-#include "cstdlib"
-#include "cwchar"
-#include "cerrno"
-#include "limits"
-#include "stdexcept"
+#include "../include/string"
+#include "../include/cstdlib"
+#include "../include/cwchar"
+#include "../include/cerrno"
+#include "../include/limits"
+#include "../include/stdexcept"
 #ifdef _LIBCPP_MSVCRT
-#include "support/win32/support.h"
+#include "../include/support/win32/support.h"
 #endif // _LIBCPP_MSVCRT
 #include <stdio.h>
 

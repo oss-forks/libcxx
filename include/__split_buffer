@@ -2,11 +2,11 @@
 #ifndef _LIBCPP_SPLIT_BUFFER
 #define _LIBCPP_SPLIT_BUFFER
 
-#include <__config>
-#include <type_traits>
-#include <algorithm>
+#include "__config"
+#include "type_traits"
+#include "algorithm"
 
-#include <__undef_min_max>
+#include "__undef_min_max"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

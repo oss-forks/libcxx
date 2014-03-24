@@ -8,10 +8,10 @@
 //===----------------------------------------------------------------------===//
 
 #define _LIBCPP_BUILDING_MUTEX
-#include "mutex"
-#include "limits"
-#include "system_error"
-#include "cassert"
+#include "../include/mutex"
+#include "../include/limits"
+#include "../include/system_error"
+#include "../include/cassert"
 
 _LIBCPP_BEGIN_NAMESPACE_STD
 

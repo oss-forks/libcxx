@@ -8,12 +8,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include <cstdarg> // va_start, va_end
-#include <cstddef> // size_t
-#include <cstdlib> // malloc
-#include <cstdio>  // vsprintf, vsnprintf
-#include <cstring> // strcpy, wcsncpy
-#include <cwchar>  // mbstate_t
+#include "../../../include/cstdarg" // va_start, va_end
+#include "../../../include/cstddef" // size_t
+#include "../../../include/cstdlib" // malloc
+#include "../../../include/cstdio" // vsprintf, vsnprintf
+#include "../../../include/cstring" // strcpy, wcsncpy
+#include "../../../include/cwchar"  // mbstate_t
 
 // Some of these functions aren't standard or if they conform, the name does not.
 

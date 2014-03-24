@@ -8,9 +8,9 @@
 //===----------------------------------------------------------------------===//
 
 #define _LIBCPP_EXTERN_TEMPLATE(...) extern template __VA_ARGS__;
-#include "algorithm"
-#include "random"
-#include "mutex"
+#include "../include/algorithm"
+#include "../include/random"
+#include "../include/mutex"
 
 _LIBCPP_BEGIN_NAMESPACE_STD
 

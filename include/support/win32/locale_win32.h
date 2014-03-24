@@ -14,9 +14,9 @@
 // ctype mask table defined in msvcrt.dll
 extern "C" unsigned short  __declspec(dllimport) _ctype[];
 
-#include "support/win32/support.h"
+#include "support.h"
 #include <stdio.h>
-#include <memory>
+#include "../../memory"
 #include <xlocinfo.h> // _locale_t
 #define locale_t _locale_t
 #define LC_COLLATE_MASK _M_COLLATE

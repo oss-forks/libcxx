@@ -8,8 +8,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include <locale>
-#include <cstdarg> // va_start, va_end
+#include "../../../include/locale"
+#include "../../../include/cstdarg" // va_start, va_end
 
 // FIXME: base currently unused. Needs manual work to construct the new locale
 locale_t newlocale( int mask, const char * locale, locale_t /*base*/ )
