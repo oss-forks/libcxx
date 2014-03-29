@@ -26,6 +26,11 @@ defines
 	_LIBCPP_BUILD_STATIC
 }
 
+defines:tizen
+{
+	_POSIX_SOURCE
+}
+
 sources
 {
 	include/experimental/dynarray

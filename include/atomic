@@ -655,11 +655,13 @@ struct __atomic_base<_Tp, true>
     _LIBCPP_CONSTEXPR __atomic_base(_Tp __d) _NOEXCEPT : __base(__d) {}
 
     _LIBCPP_INLINE_VISIBILITY
+#ifndef __TIZEN__
     _Tp fetch_add(_Tp __op, memory_order __m = memory_order_seq_cst) volatile _NOEXCEPT
         {return __c11_atomic_fetch_add(&this->__a_, __op, __m);}
     _LIBCPP_INLINE_VISIBILITY
     _Tp fetch_add(_Tp __op, memory_order __m = memory_order_seq_cst) _NOEXCEPT
         {return __c11_atomic_fetch_add(&this->__a_, __op, __m);}
+#endif
     _LIBCPP_INLINE_VISIBILITY
     _Tp fetch_sub(_Tp __op, memory_order __m = memory_order_seq_cst) volatile _NOEXCEPT
         {return __c11_atomic_fetch_sub(&this->__a_, __op, __m);}
@@ -685,6 +687,7 @@ struct __atomic_base<_Tp, true>
     _Tp fetch_xor(_Tp __op, memory_order __m = memory_order_seq_cst) _NOEXCEPT
         {return __c11_atomic_fetch_xor(&this->__a_, __op, __m);}
 
+#ifndef __TIZEN__
     _LIBCPP_INLINE_VISIBILITY
     _Tp operator++(int) volatile _NOEXCEPT      {return fetch_add(_Tp(1));}
     _LIBCPP_INLINE_VISIBILITY
@@ -721,6 +724,7 @@ struct __atomic_base<_Tp, true>
     _Tp operator^=(_Tp __op) volatile _NOEXCEPT {return fetch_xor(__op) ^ __op;}
     _LIBCPP_INLINE_VISIBILITY
     _Tp operator^=(_Tp __op) _NOEXCEPT          {return fetch_xor(__op) ^ __op;}
+#endif
 };
 
 // atomic<T>
